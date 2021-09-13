@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Urbanist:wght@100;400&display=swap');
 /* placeholders for the fams */
-/* font-family: 'Playfair Display', serif; */
+/*  */
 body {
     font-family: 'Urbanist', sans-serif; 
     font-size: 15px;
@@ -26,11 +26,12 @@ padding: 0;
 
 .btn-1 {
     height: 38px;
-    background-color: rgb(175, 168, 168);
+    background-color: rgb(185, 178, 178);
     border:0;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 .light, .dark {
@@ -40,10 +41,14 @@ padding: 0;
 }
 
 .light {
-    background-color: rgb(175, 168, 168);
+    background-color: rgb(185, 178, 178);
 }
 
 .dark {
     background-color: rgb(7,1,2);
     color: rgb(243,244,246)
+}
+
+h1,h2,h3 {
+    font-family: 'Playfair Display', serif;
 }
