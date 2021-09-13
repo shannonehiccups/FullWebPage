@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Urbanist:wght@100;400&display=swap');
+/* placeholders for the fams */
+/* font-family: 'Playfair Display', serif; */
+body {
+    font-family: 'Urbanist', sans-serif; 
+    font-size: 15px;
+    color: rgb(7,1,2);
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(243,244,246);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    /* The overflow property determines what to do if the content overflows and elements box. Setting overflow to hidden wil hide/clip the overflowing content.*/
+}
+
+ul {
+margin: 0;
+padding: 0;
+/* removes the bullet points from the list items */
+}
+
+.btn-1 {
+    height: 38px;
+    background-color: rgb(175, 168, 168);
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.light, .dark {
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.light {
+    background-color: rgb(175, 168, 168);
+}
+
+.dark {
+    background-color: rgb(7,1,2);
+    color: rgb(243,244,246)
+}
