@@ -61,6 +61,10 @@ header {
     padding: 5px 0;
 }
 
+#branding {
+    font-size: 18px;
+}
+
 header .container {
 display: flex;
 justify-content: space-between;
@@ -115,4 +119,59 @@ header a:hover {
 
 }
 
+/* Newsletter section */
 
+#newsletter {
+    padding: 15px;
+    background-color: rgb(7,1,2);
+    color: rgb(243,244,246);
+}
+#newsletter .container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#newsletter .container h1 {
+    padding-right: 25px;
+}
+
+#newsletter input {
+    padding: 5px; 
+    margin-right: 15px;
+    height: 25px;
+    width:250px;
+    font-size: 16px;
+}
+
+/* Boxes */
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#boxes .box {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+#boxes .box i {
+    font-size: 225px;
+    margin: auto;
+}
+
+#boxes .box .fa-html5 {
+    color: #d45632;
+}
+
+#boxes .box .fa-css3-alt {
+    color: turquoise;
+}
+#boxes .box .fa-js {
+    color: #f3df50;
+}
