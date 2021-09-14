@@ -196,3 +196,34 @@ color: rgb(243,244,246);
 #about .sidebar {
     margin-top: 10px;   
 }
+
+/* services */
+#services .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 50px;
+}
+
+#services li {
+    padding: 20px;
+    border: 1px solid rgb(7,1,2);
+    margin-bottom: 10px; 
+    background-color: rgb(185, 178, 178);
+}
+
+#services .sidebar {
+    margin-top: 25px;
+}
+
+#services input, #services textarea {
+    padding: 5px;
+    width: 90%;
+    font-size: 16px; 
+
+}
+
+footer {
+    padding: 3px;
+    background-color: paleturquoise;
+    text-align: center;
+}
