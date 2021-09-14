@@ -175,3 +175,24 @@ align-items: center;
 #boxes .box .fa-js {
     color: #f3df50;
 }
+
+/* About section */
+
+#about {
+    background-color: rgb(7,1,2);
+    padding: 20px;
+}
+
+#about .container {
+    display: grid; 
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 50px;
+}
+
+#about .main-col {
+color: rgb(243,244,246);
+}
+
+#about .sidebar {
+    margin-top: 10px;   
+}
